@@ -1,0 +1,534 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/containers/HomePage/HomeHeader.js":
+/*!***********************************************!*\
+  !*** ./src/containers/HomePage/HomeHeader.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _HomeHeader_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HomeHeader.scss */ "./src/containers/HomePage/HomeHeader.scss");
+/* harmony import */ var _HomeHeader_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_HomeHeader_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\thanh\\Desktop\\3\\Frontend-React.JS-QuickStart\\src\\containers\\HomePage\\HomeHeader.js";
+
+
+
+
+
+class HomeHeader extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        className: "home-header-container",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          className: "home-header-content",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "left-content",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+              className: "fas fa-bars"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 11,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("img", {
+              src: "../../assets/logo1.svg"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 12,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "header-logo",
+              children: " "
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 13,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 10,
+            columnNumber: 13
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "center-content",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-content",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("b", {
+                  children: "Chuy\xEAn khoa"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 18,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 17,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "subs-title",
+                children: "T\xECm b\xE1c s\u0129 theo chuy\xEAn khoa"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 16,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-content",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("b", {
+                  children: "C\u01A1 s\u1EDF y t\u1EBF"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 24,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 23,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "subs-title",
+                children: "Ch\u1ECDn b\u1EC7nh vi\u1EC7n ph\xF2ng kh\xE1m"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 26,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 22,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-content",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("b", {
+                  children: "B\xE1c s\u0129"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 30,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "subs-title",
+                children: "Ch\u1ECDn b\xE1c s\u0129 gi\u1ECFi"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 32,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 28,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-content",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("b", {
+                  children: "G\xF3i kh\xE1m"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "subs-title",
+                children: "Kh\xE1m s\u1EE9c kh\u1ECFe t\u1ED5ng qu\xE1t"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 38,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 34,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 15,
+            columnNumber: 13
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "right-content",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "support",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                className: "fas fa-question-circle",
+                children: "H\u1ED7 tr\u1EE3"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 43,
+                columnNumber: 17
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 42,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "flag",
+              children: "VN"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 45,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 41,
+            columnNumber: 13
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 11
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        className: "home-header-banner",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          className: "content-up",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "title-1",
+            children: "N\u1EC0N T\u1EA2NG Y T\u1EBE"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 13
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "title-2",
+            children: "CH\u0102M S\xD3C S\u1EE8C KH\u1ECEE TO\xC0N DI\u1EC6N"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 52,
+            columnNumber: 13
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "search",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+              className: "fas fa-search"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 54,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+              type: "text",
+              placeholder: "T\xECm chuy\xEAn khoa kh\xE1m b\u1EC7nh"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 55,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 53,
+            columnNumber: 13
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+          className: "content-down",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+            className: "options",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "fas fa-hospital"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 62,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 61,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "Kh\xE1m chuy\xEAn khoa"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 64,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 60,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "fas fa-mobile-alt"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 69,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 68,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "Kh\xE1m t\u1EEB xa"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 71,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 67,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "fas fa-procedures"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 75,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 74,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "Kh\xE1m t\u1ED5ng qu\xE1t"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 77,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 73,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "fas fa-vials"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 81,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 80,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "X\xE9t nghi\u1EC7m y h\u1ECDc"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 83,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 79,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "fas fa-user-md"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 87,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 86,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "S\u1EE9c kh\u1ECFe tinh th\u1EA7n"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 89,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 85,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+              className: "child-option",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "icon-child",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("i", {
+                  className: "far fa-tooth"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 93,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 92,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+                className: "text-child",
+                children: "Kh\xE1m nha khoa"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 95,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 91,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 59,
+            columnNumber: 13
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 11
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 9
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, this);
+  }
+
+}
+
+const mapStateToProps = state => {
+  return {
+    isLoggedIn: state.user.isLoggedIn
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {};
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(HomeHeader));
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=main.8a22550be35ac93b448c.hot-update.js.map
