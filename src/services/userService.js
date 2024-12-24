@@ -17,9 +17,13 @@ const deteleUserService = (userId) => {
   });
 };
 const editUserService = (inputData) => {
+  console.log("check input data", inputData);
+
   return axios.put(`/api/edit-user`, inputData);
 };
 const getAllCodeService = (inputData) => {
+  console.log("check input data", inputData);
+
   return axios.get(`/api/allcode?type=${inputData}`);
 };
 const getDoctorHomeService = (limit) => {

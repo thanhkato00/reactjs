@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Slider from "react-slick";
 import * as actions from "../../../store/actions";
 import { LANGUAGES } from "../../../utils";
+import { FormattedMessage } from "react-intl";
 
 class OutStandingDoctor extends Component {
   constructor(props) {
@@ -20,18 +21,22 @@ class OutStandingDoctor extends Component {
       this.setState({
         arrDoctors: this.props.topDoctorsRedux,
       });
+      console.log("check state", this.state);
     }
   }
   render() {
     let arrDoctors = this.state.arrDoctors;
     let { language } = this.props;
-    arrDoctors = arrDoctors.concat(arrDoctors).concat(arrDoctors);
     return (
       <div className="section-share section-outstanding-doctor">
         <div className="section-container">
           <div className="section-header">
-            <h2 className="title-section">Bác sĩ nổi bật tuần qua</h2>
-            <button className="btn-section">Xem thêm</button>
+            <span className="title-section">
+              <FormattedMessage id="homepage.outstanding-doctor"></FormattedMessage>
+            </span>
+            <button className="btn-section">
+              <FormattedMessage id="homepage.more-info"></FormattedMessage>
+            </button>
           </div>
           <div className="section-body">
             <Slider {...this.props.settings}>
@@ -51,7 +56,7 @@ class OutStandingDoctor extends Component {
                   let nameEn = `${item.positionData.valueEn},${item.firstName}  ${item.lastName}`;
 
                   return (
-                    <div className="section-customize">
+                    <div className="section-customize" key={index}>
                       <div className="customize-border">
                         <div className="outer-bg">
                           <div

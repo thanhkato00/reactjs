@@ -340,8 +340,6 @@ class UserRedux extends Component {
                   {positions &&
                     positions.length > 0 &&
                     positions.map((item, index) => {
-                      console.log("check item: ", item);
-
                       return (
                         <option key={index} value={item.keyMap}>
                           {language === LANGUAGES.VI
@@ -364,8 +362,6 @@ class UserRedux extends Component {
                   {roles &&
                     roles.length > 0 &&
                     roles.map((item, index) => {
-                      console.log("check item: ", item);
-
                       return (
                         <option key={index} value={item.keyMap}>
                           {language === LANGUAGES.VI

@@ -12,8 +12,8 @@
         "welcome": "Welcome"
     },
     "banner": {
-        "title1": "Healthcare platform",
-        "title2": "Comprehensive health care",
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
         "spec_consult": "Specialist consultation",
         "remote_consult": "Remote consultation",
         "general_checkup": "General check-up",
@@ -51,5 +51,9 @@
         "image": "Image",
         "save": "Save",
         "edit": "Edit User"
+    },
+    "homepage": {
+        "outstanding-doctor": "Last week's featured doctor",
+        "more-info": "More Infor"
     }
 }

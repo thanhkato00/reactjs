@@ -82,7 +82,6 @@ export const createNewUser = (data) => {
   return async (dispatch, getState) => {
     try {
       let res = await createNewUserService(data);
-      console.log("createNewUser", res);
 
       if (res && res.errCode === 0) {
         toast.success("Create new user successfully");
@@ -109,7 +108,6 @@ export const deleteAUser = (userId) => {
   return async (dispatch, getState) => {
     try {
       let res = await deteleUserService(userId);
-      console.log("createNewUser", res);
 
       if (res && res.errCode === 0) {
         toast.success("Delete the user successfully");
@@ -139,7 +137,6 @@ export const fetchAllUserStart = () => {
     try {
       let res = await getAllUsers("ALL");
       let res1 = await getDoctorHomeService("");
-      console.log("check res1", res);
 
       if (res && res.errCode === 0) {
         dispatch(fetchAllUsersSuccess(res.users.reverse()));
@@ -167,10 +164,10 @@ export const editAUser = (data) => {
   return async (dispatch, getState) => {
     try {
       let res = await editUserService(data);
-      console.log("createNewUser", res);
+      console.log("check res edit user", res);
 
       if (res && res.errCode === 0) {
-        toast.error("update user success");
+        toast.success("update user success");
 
         dispatch(fetchAllUserStart());
 
@@ -197,7 +194,6 @@ export const fetchTopDoctor = () => {
   return async (dispatch, getState) => {
     try {
       let res = await getDoctorHomeService("10");
-      console.log("fetchTopDoctor", res);
 
       if (res && res.errCode === 0) {
         dispatch({
