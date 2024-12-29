@@ -4562,7 +4562,7 @@ class UserManage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       console.log(user);
 
       try {
-        let response = await Object(_services_userService__WEBPACK_IMPORTED_MODULE_4__["deteleUserService"])(user.id);
+        let response = await Object(_services_userService__WEBPACK_IMPORTED_MODULE_4__["deleteUserService"])(user.id);
 
         if (response && response.errCode === 0) {
           await this.getAllUsersFromReact();
@@ -6013,7 +6013,7 @@ if (true) {
 /*!*************************************!*\
   !*** ./src/services/userService.js ***!
   \*************************************/
-/*! exports provided: handleLoginApi, getAllUsers, createNewUserService, deteleUserService, editUserService */
+/*! exports provided: handleLoginApi, getAllUsers, createNewUserService, deleteUserService, editUserService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6021,7 +6021,7 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleLoginApi", function() { return handleLoginApi; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAllUsers", function() { return getAllUsers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNewUserService", function() { return createNewUserService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deteleUserService", function() { return deteleUserService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteUserService", function() { return deleteUserService; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "editUserService", function() { return editUserService; });
 /* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../axios */ "./src/axios.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
@@ -6045,7 +6045,7 @@ const createNewUserService = data => {
   return _axios__WEBPACK_IMPORTED_MODULE_0__["default"].post(`/api/create-new-user`, data);
 };
 
-const deteleUserService = userId => {
+const deleteUserService = userId => {
   return _axios__WEBPACK_IMPORTED_MODULE_0__["default"].delete(`/api/delete-user`, {
     data: {
       id: userId

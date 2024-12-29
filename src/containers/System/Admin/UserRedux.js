@@ -157,6 +157,7 @@ class UserRedux extends Component {
         positionId: this.state.position,
         avatar: this.state.avatar,
       });
+      console.log("check avatar: " + this.state.avatar);
     }
 
     this.props.fetchUserRedux();

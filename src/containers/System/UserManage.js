@@ -5,7 +5,7 @@ import "./UsersManage.scss";
 import {
   getAllUsers,
   createNewUserService,
-  deteleUserService,
+  deleteUserService,
   editUserService,
 } from "../../services/userService";
 import ModalUser from "./ModalUser";
@@ -69,7 +69,7 @@ class UserManage extends Component {
   handdleDeleteUser = async (user) => {
     console.log(user);
     try {
-      let response = await deteleUserService(user.id);
+      let response = await deleteUserService(user.id);
       if (response && response.errCode === 0) {
         await this.getAllUsersFromReact();
       } else {
